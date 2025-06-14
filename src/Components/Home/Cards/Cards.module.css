@@ -1,0 +1,58 @@
+.cards {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.boxTitle {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cardsBoxes {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+}
+
+.box {
+    width: 175px;
+    border-radius: 8px;
+    border: 1px solid #D1E0E5;
+    height: 200px;
+}
+
+.container {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.container img {
+    width: 20px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .cards {
+        text-align: center;
+    }
+
+    .cardsBoxes {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .box {
+      width: 300px;
+      margin-bottom: 10px;
+    }
+}
